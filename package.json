@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-app-store-google-play-review-monitor",
+  "version": "1.0.0",
+  "description": "MCP server for App Store and Google Play Review Monitor. App Store and Google Play reviews by country store, newest first, only new ones on a schedule, plus a rating trend row per app. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-app-store-google-play-review-monitor": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "app-reviews",
+    "app-store",
+    "google-play",
+    "review-monitoring",
+    "ios",
+    "android",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/app-store-google-play-review-monitor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-app-store-google-play-review-monitor"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-app-store-google-play-review-monitor"
+}
