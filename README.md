@@ -109,7 +109,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 |---|---|---|---|---|
 | `review-row`, one App Store or Google Play review returned | $0.0001 | $9.5e-05 | $9e-05 | $8.5e-05 |
 | `app-summary`, one app and country store checked: the app rating, rating count, change since the last run, and the stars of the new reviews. Off when include_summary is false | $0.001 | $0.00095 | $0.0009 | $0.00085 |
-| `apify-actor-start`, per run start | $0.0005 | $0.0005 | $0.0005 | $0.0005 |
+| `apify-actor-start`, per run start | $0.0006563 | $0.0006563 | $0.0006563 | $0.0006563 |
 
 Rows for an app or input that could not be read are free.
 
