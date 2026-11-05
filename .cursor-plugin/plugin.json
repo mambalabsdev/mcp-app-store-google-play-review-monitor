@@ -1,7 +1,7 @@
 {
   "name": "mcp-app-store-google-play-review-monitor",
   "displayName": "App Store and Google Play Review Monitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for App Store and Google Play Review Monitor. App Store and Google Play reviews by country store, newest first, only new ones on a schedule, plus a rating trend row per app. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs",
